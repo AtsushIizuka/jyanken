@@ -35,8 +35,7 @@ def look_over_there_hoi_win
     puts "あなたは#{over_there_hoi[player_hoi]}を選択しました！"
     puts "相手は#{over_there_hoi[enemy_hoi]}を選択しました！"
     if player_hoi == enemy_hoi
-        puts"あなたの勝ちです"
-        jyanken
+        puts"おめでとうございます！！あなたの勝ちです"
     else
         puts "じゃんけんもう一回！！"
         jyanken
@@ -54,8 +53,8 @@ def look_over_there_hoi_lose
     puts "あなたは#{over_there_hoi[player_hoi]}を選択しました！"
     puts "相手は#{over_there_hoi[enemy_hoi]}を選択しました！"
     if player_hoi==enemy_hoi
-        puts"あなたのまけです"
-        jyanken
+        puts"残念負けちゃった；；あなたのまけです"
+        
     else
        puts "じゃんけんもう一回！！"
         jyanken
